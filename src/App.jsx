@@ -4,20 +4,22 @@ import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Contact from './pages/Contact/Contact'
 import Footer from './componnent/footer/Footer'
+import Hero from './pages/hero/Hero'
 
 function App() {
-  return(
+  return (
     <>
-     <NavBar/>
-    <Portfolio />
-<About />
-<Contact />
-<Footer />
+      <NavBar />
+      <Hero/>
+      <Portfolio />
+      <About />
+      <Contact />
+      <Footer />
     </>
-   
+
   )
 
- 
+
 }
 
 export default App
