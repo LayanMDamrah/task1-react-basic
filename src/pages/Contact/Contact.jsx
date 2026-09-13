@@ -1,7 +1,57 @@
+import Divider2 from '../../componnent/divider/Divider2';
+import './Contact.css';
+
 export default function Contact() {
   return (
-    <section id="contact"> 
-    <h1>Contact</h1>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sunt a quod cumque odit dolore officiis vel, blanditiis at fuga provident quos sint, porro consequuntur maxime ullam tenetur error. Quaerat voluptas obcaecati nemo eaque vel quibusdam nostrum voluptatum. Amet non placeat eum neque, cupiditate qui excepturi tempore. Voluptate saepe nulla possimus omnis quidem consequuntur quisquam animi in eos nostrum ex assumenda voluptatum aliquid similique distinctio delectus corrupti quasi temporibus, reprehenderit perspiciatis aspernatur at, velit dolorum. Odio aut, optio facilis dolorum eum fugit veritatis dignissimos? Vero quas natus et ad deserunt nobis tenetur fuga ex repellat, suscipit rem, aperiam minima! Tempore dicta impedit est, et ex tempora hic aliquid vitae, rerum suscipit repellat rem quis sed esse. Libero amet numquam, ducimus impedit quis fuga consequuntur rerum sit error iste, mollitia dolorem qui adipisci! Et nesciunt commodi tenetur, tempora quia nisi atque ea provident. Est animi alias asperiores et voluptatum iusto non voluptates unde nostrum vitae, placeat similique! Officiis sunt, odio deserunt reiciendis illo, dolorem ad nulla dolor recusandae quam repudiandae tempora molestias autem neque repellat dolores labore maxime eveniet, eos quidem numquam accusantium explicabo dolorum et! In culpa beatae impedit debitis? Eum omnis tempore labore quam suscipit dolor nesciunt vitae delectus sed quaerat. Tempora commodi nostrum officiis quae ipsa harum molestiae aliquid, reiciendis architecto? Quisquam libero laborum quia eius fugit. Eaque nulla enim tenetur culpa, officia magnam at maxime deserunt dicta consequuntur mollitia expedita facilis commodi eos dolores id tempora reiciendis ipsam quasi cum repudiandae possimus sapiente molestias! Minus dolorum saepe, adipisci magnam quas necessitatibus quos autem quia ipsa odio corporis ab quo neque sequi expedita error reiciendis qui impedit aliquam, eaque blanditiis repudiandae tempore, ad obcaecati. Saepe, ratione, vero nulla fugiat ea tenetur tempora dolores soluta voluptatum reiciendis distinctio odio officia, suscipit voluptate ab magni in incidunt odit qui neque.    </section>
+    <section id="contact" className="py-5">
+      <div className="container py-5">
+
+        <h1 className="text-center text-secondary">
+          Contact Me
+        </h1>
+
+        <Divider2 />
+
+        <form className="mx-auto mt-5" style={{ maxWidth: '700px' }}>
+
+          <div className="mb-4">
+            <label className="form-label">Full name</label>
+            <input
+              type="text"
+              className="form-control border-0 border-bottom rounded-0"
+            />
+          </div>
+
+          <div className="mb-4">
+            <label className="form-label">Email address</label>
+            <input
+              type="email"
+              className="form-control border-0 border-bottom rounded-0"
+            />
+          </div>
+
+          <div className="mb-4">
+            <label className="form-label">Phone number</label>
+            <input
+              type="text"
+              className="form-control border-0 border-bottom rounded-0"
+            />
+          </div>
+
+          <div className="mb-4">
+            <label className="form-label">Message</label>
+            <textarea
+              className="form-control border-0 border-bottom rounded-0"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <button type="submit" className="btn send-bt">
+            Send
+          </button>
+
+        </form>
+      </div>
+    </section>
   );
 }

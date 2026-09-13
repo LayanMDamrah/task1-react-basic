@@ -1,0 +1,39 @@
+.contact {
+  min-height: 100vh;
+  padding-top: 5rem;
+}
+
+.contact h1 {
+  color: var(--secondary);
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: 3rem auto 0;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--secondary);
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 0;
+  padding: 1rem 0;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+}
+
+
+.send-bt{
+    background-color: var(--primary);
+    padding: .6rem 1.5rem;
+    color: white;
+    font-size: 1.3rem;
+}
