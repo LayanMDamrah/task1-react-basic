@@ -1,8 +1,24 @@
+import './Portfolio.css'
 export default function Portfolio() {
   return (
     <section id="portfolio">
-      <h1>Portfolio</h1>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi non, quasi asperiores, necessitatibus hic possimus perspiciatis laboriosam iure sit repudiandae quas nesciunt. Suscipit, voluptates quis. Nesciunt blanditiis, rerum explicabo ipsa ad dolore velit incidunt beatae alias ut eaque et earum hic vitae, ipsam nisi laboriosam accusamus odit iure quaerat! Dolores accusantium officia accusamus repellat adipisci! Accusantium nostrum odit, perferendis repudiandae numquam pariatur porro quam, excepturi, iste amet velit eum. Atque omnis repellendus consectetur asperiores cumque, unde, nobis quaerat tenetur ad deleniti ducimus voluptatem. Praesentium est nesciunt ad illo a odit, eius soluta nisi ipsa mollitia. Officia voluptatum libero hic perferendis non deleniti atque quas sunt laboriosam at necessitatibus soluta, commodi delectus eaque eligendi natus provident rerum dolor fugit deserunt ut quidem cupiditate ipsum! Atque officia quidem illum cupiditate! Esse minus repellat, quis perferendis expedita dolorem sunt aperiam dolor nobis facilis debitis, itaque accusantium alias ratione atque. Aliquid at laborum quibusdam tempore minima molestias dignissimos totam quia, quae odit sed provident error placeat velit eaque rem sequi. Soluta vero officiis voluptatum, iure, ipsum id voluptas sed autem numquam laborum dolore est natus voluptatibus! Nulla fuga nostrum accusantium, deserunt temporibus praesentium, aliquid eius voluptatibus laudantium cumque eligendi incidunt nam atque nemo libero blanditiis maxime rem odio neque consequuntur corporis ad architecto vel itaque. Ducimus doloremque assumenda eum. Quae facilis possimus veniam laboriosam enim ad eaque distinctio, aliquam magnam laudantium minus sed molestiae accusamus eligendi, repellat esse commodi ea. Iste ea sit ullam ad placeat, ab iure velit quisquam sapiente esse nisi expedita, quos illo eos ipsa minima. Itaque maxime corporis id ipsa provident dolorum quae libero, non in fugiat cupiditate, ducimus facere. Adipisci neque cumque aliquam facere. Recusandae, aliquid quae vitae eos officia inventore repudiandae delectus doloremque dolorum alias vero blanditiis, nobis, quisquam dolor praesentium autem sunt quaerat. Exercitationem dolorem repellat tenetur nisi earum porro laboriosam atque, amet accusantium explicabo labore, beatae perspiciatis eaque deleniti natus obcaecati? Aspernatur, alias! Odit eveniet nostrum vel corporis quidem rem officia, quaerat commodi pariatur dolorum omnis eos est esse molestias repudiandae! Neque aliquam nesciunt ratione fugiat eius porro tenetur quod odio libero nulla iure explicabo ipsam illum delectus, cumque tempora asperiores animi quas! Necessitatibus eveniet velit nulla harum numquam temporibus, cum doloremque, sit deserunt voluptatibus cupiditate quasi unde exercitationem labore eaque enim laboriosam incidunt neque voluptatem quod ipsum deleniti culpa placeat? Cupiditate dignissimos quo deserunt mollitia explicabo vel dolor rem cumque exercitationem eius deleniti, pariatur repellendus!    
+      <div className="container pt-5">
+        <h1 className="text-center title">Portfolio</h1>
+
+        <div className="row justify-content-center py-5 ">
+          <img className="col-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="" />
+          <img className="col-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="" />
+          <img className="col-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="" />
+
+        </div>
+
+        <div className="row justify-content-center py-2">
+          <img className="col-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="" />
+          <img className="col-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="" />
+          <img className="col-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="" />
+
+        </div>
+      </div>
     </section>
   );
 }
