@@ -1,0 +1,19 @@
+.about-bg{
+    background-color: var(--primary);
+
+
+}
+
+.down-bt{
+    background-color: var(--primary);
+    padding: 1rem 2.5rem;
+    color: white;
+    border-radius: .6rem;
+      border: 2px solid white;
+
+}
+
+.down-bt:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,7 +1,22 @@
+import Divider from '../../componnent/divider/Divider';
+import './About.css';
+
 export default function About() {
   return (
-    <section id="about">
-      <h1>About</h1>
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe officiis corporis sit non pariatur accusamus dolores est repudiandae temporibus ducimus labore qui praesentium, nesciunt culpa enim cum corrupti harum, officia amet! Architecto atque ducimus iusto, deleniti repellat modi mollitia natus perferendis ea soluta voluptatem officiis repellendus dolore dolorem odio quo rerum adipisci! Impedit optio harum, ea ab numquam, fuga aspernatur nemo eligendi eveniet rerum, illo cumque tempore esse qui vero expedita sapiente et nam ut cupiditate nostrum eaque dicta blanditiis. Quisquam, sunt. Ducimus, illum similique. Autem est deserunt ipsam cupiditate possimus ipsa harum fugit magnam sapiente consequuntur sunt, voluptatibus repellendus ipsum quas optio iusto. Corrupti, mollitia voluptatem omnis impedit nisi eos eaque saepe, totam, inventore praesentium aut? Laboriosam placeat numquam, impedit quam esse repellat vel quaerat consequatur fuga enim sequi a aut tempore, magni dolorem reprehenderit voluptatem temporibus provident similique harum, at sit quia vitae eum? Dolores aperiam earum quidem, nihil veritatis facere cumque fugit vel asperiores similique magnam, error explicabo fuga nobis aliquid! Quod sapiente aliquam vero nesciunt quaerat ratione suscipit nihil unde nam beatae culpa obcaecati, provident perferendis, reiciendis dignissimos mollitia totam blanditiis atque ex minima. In sapiente temporibus repellat iure quisquam maiores voluptatem corrupti tempore consequuntur ab! Provident, asperiores mollitia! Dolore dolorem sit et ex maxime iure vel quae repellendus. Ducimus architecto eaque repellat assumenda nostrum natus dolor ex, distinctio dolorum aspernatur, alias labore ullam? Libero sunt fuga iure. Aliquid distinctio consectetur odit dolor asperiores saepe explicabo aliquam accusantium. Impedit ad eius, officiis, vel aspernatur odio sequi iste minus in quisquam quia. Tempore id quasi voluptatem nisi, facilis ratione, veniam inventore sequi quibusdam, sunt rem excepturi facere. At quae, dolorum assumenda, dicta pariatur libero fugit modi blanditiis, incidunt reprehenderit magni laudantium? Quis velit dolores, quo et, quasi corrupti ipsum libero reprehenderit neque a placeat ratione incidunt labore in, debitis enim corporis inventore deserunt nesciunt vel accusamus aspernatur molestiae! Eos, modi nesciunt hic mollitia, ipsum quisquam ratione praesentium molestias, obcaecati similique facere natus. Iste eligendi autem quod alias totam blanditiis sequi architecto illum aliquam eius minima voluptates a distinctio voluptatum explicabo esse mollitia, ab deleniti soluta tempore excepturi ullam, qui consequatur minus. Perspiciatis iure facere assumenda quae inventore repellendus nesciunt ut nemo delectus possimus sunt alias excepturi minus nulla, facilis, rerum quibusdam neque, quis quo? Similique minima eos error molestias assumenda ducimus illo velit fugiat neque quisquam ad deleniti tenetur aut, iusto eaque animi voluptate commodi nihil nisi!    </section>
+    <section
+      id="about"
+      className="about-bg py-5 mt-5 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h1 className="text-white text-center">About</h1>
+      <Divider />
+      <div className='para d-flex container px-5 text-white'>
+        <p className='col-6'>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+        <p className='col-6'>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+      </div>
+      <button  className='down-bt'>
+        Free Download!
+      </button>
+
+    </section>
   );
 }
