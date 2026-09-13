@@ -1,3 +1,4 @@
+import Divider from '../../componnent/divider/Divider'
 import './Hero.css'
 
 export default function Hero() {
@@ -9,11 +10,7 @@ export default function Hero() {
             />
 
             <h1 className='text-white pt-3'>Start Bootstrap</h1>
-            <div className="divider">
-                <div className="line"></div>
-                <span>★</span>
-                <div className="line"></div>
-            </div>
+           <Divider/>
             <h5 className='text-white pt-2'>Graphic Artist - Web Designer - Illustrator</h5>
         </section>
     )
