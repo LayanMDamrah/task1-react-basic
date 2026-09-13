@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+:root {
+  --primary: #1abc9c;
+  --secondary: #2c3e50;
+  --white: #ffffff;
+  --black: #212529;
+  --light: #f8f9fa;
+  
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 ,
+span{
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+ 
+ text-decoration: none;
+ 
+}
