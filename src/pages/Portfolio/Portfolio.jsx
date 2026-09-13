@@ -1,9 +1,11 @@
+import Divider2 from '../../componnent/divider/Divider2';
 import './Portfolio.css'
 export default function Portfolio() {
   return (
     <section id="portfolio">
       <div className="container pt-5">
         <h1 className="text-center title">Portfolio</h1>
+       <Divider2/>
 
         <div className="row justify-content-center py-5 ">
           <img className="col-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="" />
